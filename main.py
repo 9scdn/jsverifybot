@@ -1,3 +1,5 @@
+import telegram
+print("PTB version:", getattr(telegram, "__version__", "unknown"))
 import os
 import asyncio
 from telegram import Update
